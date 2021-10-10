@@ -1,0 +1,99 @@
+{
+  "uuid": "7d63a4b2-2bf7-4c0d-bd34-7a89339c0e0c-tr-0-1002",
+  "historyId": "BookswagonProject.TestClass.Test_Login",
+  "fullName": "BookswagonProject.TestClass.Test_Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NWLT054"
+    },
+    {
+      "name": "testClass",
+      "value": "BookswagonProject.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login"
+    },
+    {
+      "name": "package",
+      "value": "BookswagonProject.TestClass"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "Test_Login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=94.0.4606.61)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()\r\n   at BookswagonProject.TestClass.Test_Login() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\TestClass.cs:line 36"
+  },
+  "stage": "finished",
+  "description": "login\n",
+  "steps": [
+    {
+      "name": "Test_Login",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=94.0.4606.61)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()\r\n   at BookswagonProject.TestClass.Test_Login() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\TestClass.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6bc2e2b1439a4b18a144fa535c882a5e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633556713427,
+      "stop": 1633556718284
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633556713427,
+  "stop": 1633556718289
+}

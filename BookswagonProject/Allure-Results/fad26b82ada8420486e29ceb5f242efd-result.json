@@ -1,0 +1,64 @@
+{
+  "uuid": "7e26dcf6-4d65-4f7d-9939-ebfc3b0aa41a-tr-0-1005",
+  "historyId": "BookswagonProject.TestClass.Test_Placeorder",
+  "fullName": "BookswagonProject.TestClass.Test_Placeorder",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NWLT054"
+    },
+    {
+      "name": "testClass",
+      "value": "BookswagonProject.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Placeorder"
+    },
+    {
+      "name": "package",
+      "value": "BookswagonProject.TestClass"
+    }
+  ],
+  "links": [],
+  "name": "Test_Placeorder",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Placeorder"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test_Placeorder",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bcee5f49456f4e1d8625ab8def9edb1e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633639323871,
+      "stop": 1633639368470
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633639323870,
+  "stop": 1633639368474
+}

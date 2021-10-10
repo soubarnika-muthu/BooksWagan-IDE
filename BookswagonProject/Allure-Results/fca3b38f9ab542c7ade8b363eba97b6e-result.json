@@ -1,0 +1,67 @@
+{
+  "uuid": "ddce6862-15b3-4a5c-bcf1-91d3665fef72-tr-0-1007",
+  "historyId": "BookswagonProject.TestClass.Test_OrderReview",
+  "fullName": "BookswagonProject.TestClass.Test_OrderReview",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NWLT054"
+    },
+    {
+      "name": "testClass",
+      "value": "BookswagonProject.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_OrderReview"
+    },
+    {
+      "name": "package",
+      "value": "BookswagonProject.TestClass"
+    }
+  ],
+  "links": [],
+  "name": "Test_OrderReview",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BookswagonProject.Action.CustomException : Webdriver not able to find element",
+    "trace": "   at BookswagonProject.Action.DoAction.PlaceOrder() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 207\r\n   at BookswagonProject.Action.DoAction.ShippingAddress() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 215\r\n   at BookswagonProject.Action.DoAction.OrderReview() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 268\r\n   at BookswagonProject.TestClass.Test_OrderReview() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\TestClass.cs:line 62"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test_OrderReview",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BookswagonProject.Action.CustomException : Webdriver not able to find element",
+        "trace": "   at BookswagonProject.Action.DoAction.PlaceOrder() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 207\r\n   at BookswagonProject.Action.DoAction.ShippingAddress() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 215\r\n   at BookswagonProject.Action.DoAction.OrderReview() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\Action\\DoActions.cs:line 268\r\n   at BookswagonProject.TestClass.Test_OrderReview() in C:\\Users\\soubarnika.v\\source\\repos\\BookswagonProject\\BookswagonProject\\TestClass.cs:line 62"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "13ecbb5c44074fdbab17e39a99e70c0a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633906020035,
+      "stop": 1633906047137
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633906020034,
+  "stop": 1633906047140
+}
